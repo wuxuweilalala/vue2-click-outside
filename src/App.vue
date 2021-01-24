@@ -6,7 +6,7 @@
 
 <script>
   import clickOutSide from './components/click-outside'
-  import vueLazyLoad from './components/vue-lazyload'
+  import vueLazyLoad from './components/vue-lazyload.vue'
   export default  {
     components:{
       clickOutSide,

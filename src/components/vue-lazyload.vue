@@ -13,9 +13,10 @@
     import axios from 'axios';
     import VueLazyload from './vue-lazyload.js';
     import logo from '../assets/logo.png'
-    Vue.use(VueLazyload,{
-        loading:logo,
-        preload:1.2
+
+    Vue.use(VueLazyload, {
+        loading: logo,
+        preload: 1.2
     })
     export default {
         name: "vue-lazyload",
@@ -33,5 +34,15 @@
 </script>
 
 <style scoped>
+    ul {
+        overflow: scroll;
+        height: 50vh;
+        border: 1px solid red;
+        width: 20%;
+    }
 
+    ul li img {
+        width: 200px;
+        height: 200px;
+    }
 </style>
